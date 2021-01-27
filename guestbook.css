@@ -1,0 +1,118 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+    height: 100vh;
+    font-size: 12px; 
+    font-family: times new roman; 
+    margin: 0; 
+    padding: 0;
+    background-image: linear-gradient(rgba(230, 149, 57, 0.692), rgba(138, 79, 12, 0.733));
+}
+
+h1, p  
+{ 
+    text-align: center; 
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: rgb(138, 79, 12);
+}
+
+.guestbook{
+    background-image: linear-gradient(rgb(230, 149, 57), rgb(138, 79, 12));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+min-height: 500px;
+}
+
+form{
+    text-align: center; 
+    margin: 30px;
+   
+}
+
+form input[type="text"]
+{
+outline: none;
+border: none; 
+width: 100%;
+opacity: 0.3;  
+margin-top: 20px; 
+margin-bottom: 15px;
+padding: 7px 30px 7px 2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.userInputName:focus{
+    border: 1px solid black;
+}
+
+
+textarea {
+    border: none; 
+    width: 100%;
+    opacity: 0.3;
+    resize: none; 
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+textarea:focus {
+    border: 1px solid black;
+}
+
+.sendButton /*comment button*/
+  {
+  
+    margin: 15px; 
+    padding: 10px 30px; 
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.774), 0 0 25px rgba(255, 255, 255, 0.623), 0 0 5px rgba(255, 255, 255, 0.747);
+    background-image: linear-gradient(rgb(230, 149, 57), rgb(138, 79, 12));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    font-family: times new roman;
+    font-size: 14px;
+    cursor: pointer; 
+    outline: none;
+    }
+
+.sendButton:focus
+    {
+      border: 1px solid black;
+    }
+
+.sendButton:hover 
+{
+margin: 15px; 
+border: none; 
+font-family: times new roman; 
+cursor: pointer; 
+text-decoration: underline;
+}
+
+.userOutput{
+    margin: 15px;
+}
+
+
+hr{
+    margin: 20px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+fieldset{
+    
+    margin: 30px;
+ opacity: 0.7;
+    border: none;
+
+}
+
+

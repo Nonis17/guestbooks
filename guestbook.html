@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guestbook.css">
+    <script src="guestbook.js" defer></script>
+    <title>Guestbook 1.0</title>
+    <meta name="description" content="A guestbook with localStorage" />
+</head>
+
+<body>
+    <main>
+        <h1>Guestbook</h1>
+        <p>with localStorage</p>
+        <div class="guestbook">
+            <form class="form">
+                <label for="text"></label>
+                <input type="text" id="text" value="" name="Name" class="userInputName" placeholder="Name">
+                <br>
+                <label for="bio"></label>
+                <textarea name="bio" class="bio" value="" id="bio" maxlength="90" cols="40" rows="6"
+                    placeholder="Comment here..." required></textarea>
+                <br><br>
+                <button type="submit" value="comment" name="comment" class="sendButton">Comment</button>
+            </form>
+
+            <fieldset>
+                <hr>
+                <div class="userOutput"></div>
+            </fieldset>
+
+        </div>
+    </main>
+</body>
+
+</html>

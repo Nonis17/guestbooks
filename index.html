@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="index.js"></script>
+    <title>Guestbook 3.0</title>
+    <meta name="description" content="A guestbook with stored data in an array" />
+</head>
+
+<body>
+    <main>
+
+        <h1>Guestbook</h1>
+        <p>with stored data in an array</p>
+        <div class="guestbook">
+            <form class="form">
+                <label for="text"></label>
+                <input type="text" id="text" value="" name="Name" class="userInputName" placeholder="Name">
+                <br>
+                <label for="bio"></label>
+                <textarea name="bio" value="" class="bio" id="bio" maxlength="90" cols="40" rows="6"
+                    placeholder="Comment here..." required></textarea>
+                <br><br>
+                <button type="submit" value="comment" name="comment" class="sendButton"
+                    aria-label="Send">Comment</button>
+            </form>
+
+
+            <ul class="comment-section">
+                <li class="comment user-comment">
+                    <div class="info">
+                        <!--I p-taggen hamnar namnet på användaren-->
+                        <p></p>
+                        <!--I span-tagen dyker tiden upp-->
+                        <span></span>
+                    </div>
+
+                    <!--Här hamnar kommentaren användaren skriver in i textrutan-->
+                    <p class="comment"></p>
+                </li>
+        </div>
+
+
+
+    </main>
+</body>
+
+</html>

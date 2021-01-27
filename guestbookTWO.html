@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guestbookTWO.css">
+    <script defer src="guestbookTWO.js"></script>
+    <title>Gästbok 2.0</title>
+    <meta name="description" content="A guestbook with creating elements in JS" />
+</head>
+
+<body>
+    <main>
+
+        <h1>Guestbook</h1>
+        <p>with creating elements in JS</p>
+        <div class="guestbook">
+            <form id="commentForm">
+                <label for="text"></label>
+                <input type="text" id="text" value="" name="Name" class="userInputName" placeholder="Name">
+                <br>
+                <label for="bio"></label>
+                <textarea form="commentForm" name="bio" value="" class="bio" id="bio" maxlength="90" cols="40" rows="6"
+                    placeholder="Comment here..." required></textarea>
+                <br><br>
+                <button type="submit" value="comment" name="comment" class="sendButton"
+                    aria-label="Send">Comment</button>
+            </form>
+        </div>
+
+        <div class="container">
+            <ul class="comment-section">
+                <li>
+                    <span class="commentName">Emma</span>
+                    <span class="commentText">Hej</span>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+    </main>
+</body>
+
+</html>
